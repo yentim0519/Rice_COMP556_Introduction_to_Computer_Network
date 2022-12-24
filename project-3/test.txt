@@ -1,0 +1,7 @@
+We developed 5 configurations named inclassTest1, inclassTest2, changeDelayTest, poisonReverseTest and largeGraphTest to test our implementation.
+The inclassTest1 and inclassTest2 are based on the examples provided in the lectures. The changeDelay is used to test whether the program could handle changedelay properly.
+The poisonReverseTest is intended for testing if the poison reverse could function correctly. Lastly, the largeGraphTest is a complex topologies with linkcomingup, linkdying and changedelay events.
+The files of these configurations could be found in the folder.
+
+Since events that are at the exact same time can be simulated in any order, instead of checking the output row by row,
+we obeserve the forwarding table in each router after the protocal is stabilized to see whether those tables are reasonable.

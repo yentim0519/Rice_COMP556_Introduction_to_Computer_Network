@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/storage-home/t/ty36/COMP556/COMP556-Introduction-to-Comp-Network/project-1'
+gcc  -Wall -g  -o client client.c
+gcc  -Wall -g  -o server server.c
+make: Leaving directory `/storage-home/t/ty36/COMP556/COMP556-Introduction-to-Comp-Network/project-1'
+ 
